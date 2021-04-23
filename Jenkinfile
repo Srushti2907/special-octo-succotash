@@ -20,7 +20,7 @@ pipeline{
         }
     stage("Release the version"){
             steps{
-                sh "Release the version"
+                echo "Release the version"
             }
         }
 
